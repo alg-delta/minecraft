@@ -1,0 +1,207 @@
+.oleg {
+	background: url(img/images.jpg);
+	background-size: cover;
+	height: 160vh;
+}
+
+
+body {
+	margin: 0;
+}
+
+.menu {
+	margin: 0;
+	padding:0;
+    list-style: none;
+    font-family: Verdana;
+	
+}
+
+.text{
+	text-align: center;
+}
+
+.menu li{ 
+display: inline-block;
+}
+.menu a {
+	display:block;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+    font-size: 24px;
+}
+.menu a:hover{
+color:black;
+}
+
+.menu a.active{
+ color: purple;
+}
+.text3{
+text-align: center;
+}
+
+.farm1{
+	text-indent: 100px;
+}
+	
+	
+.farm1-1{
+	width:300px;
+	height:200px;
+}
+
+.ponshik{
+font-style: italic;
+background-color: rgba(255,255,255,1);
+}
+
+.farm1{
+	font-style: italic;
+}
+
+.ul{
+	list-style: none;
+display: flex;
+flex-wrap:wrap;
+justify-content: center; 
+gap: 30px;
+
+}
+
+.ul li{
+	width: 300px;
+}
+
+.text_7{
+	background-color: rgba(255,255,255,1);
+}
+
+
+
+
+.text4{
+	text-align:center;
+}
+	
+	
+.farm2-2{
+	width:300px;
+	height:200px;
+}
+
+.betmen{
+font-style: italic;
+background-color: rgba(255,255,255,1);
+}
+
+.farm2{
+	font-style: italic;
+}
+
+.pom{
+	list-style: none;
+display: flex;
+flex-wrap:wrap;
+justify-content: center; 
+gap: 30px;
+
+}
+
+.pom li{
+	width: 300px;
+}
+
+
+.fakt{
+	text-align: center;
+	color: white;
+}
+
+.farm1-1 {
+	border: 2px solid black;
+}
+
+
+.text3{
+	color: white;
+}
+.text4{
+	color: white;
+}
+.text5{
+	color: white;
+	text-align:center;
+}
+.text{
+	color: white;
+} 
+.farm2-2{
+	border: 2px solid black;
+}
+.farm2-2:hover {
+	transform: scale(1.2);
+}
+.farm1-1:hover {
+	transform: scale(1.2);
+}
+.farm1{
+	color:white;
+}
+
+.text2 {
+	  color: white;
+      text-align: center; 
+    
+ 
+}
+
+.fota {
+	margin-left: 800px;
+	height: 400px;
+}
+
+.fata{
+	width:  800px;
+	height: 500px;
+    margin-left: 350px;
+}
+
+
+.fata:hover{
+	transform: scale( 1.1)
+}
+
+
+.text_5{
+	text-align: center;
+	color: white;
+}
+
+
+.text_6{
+	text-align: center;
+	color: white;
+}
+
+/* Працює в Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+/* Працює в Chrome, Edge и Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: orange;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid orange;
+}
